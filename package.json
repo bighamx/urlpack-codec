@@ -1,0 +1,10 @@
+{
+  "name": "urlpack-codec",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Stateless URL compression with matching JavaScript and .NET implementations",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node tests/codec.test.js" }
+}
